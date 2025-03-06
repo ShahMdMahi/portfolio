@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+  // swcMinify: true,
   poweredByHeader: false, // Remove X-Powered-By header for security
   compress: true, // Enable gzip compression
   // images: {
